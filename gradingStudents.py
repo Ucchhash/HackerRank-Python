@@ -20,7 +20,7 @@ def gradingStudents(grades):
                 if(5-(grades[i]%5)<3):
                     grades[i] += 5-(grades[i]%5)
     return (grades)
-    # Write your code here
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
