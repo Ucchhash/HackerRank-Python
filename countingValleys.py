@@ -8,14 +8,14 @@ import sys
 
 # Complete the countingValleys function below.
 def countingValleys(n, s):
-    seaLevel=valley=0
+    level=valley=0
     for i in range(n):
         if(s[i]=='U'):
-            seaLevel+=1
-            if(seaLevel==0):
+            level+=1
+            if(level==0):
                 valley+=1
         else:
-            seaLevel-=1
+            level-=1
     
     return valley
 
