@@ -6,9 +6,7 @@ import random
 import re
 import sys
 
-# Complete the minimumNumber function below.
 def minimumNumber(n, password):
-    # Return the minimum number of characters to make the password strong
     count = 0
     if(any(i.isdigit() for i in password)==False):
         count+=1
